@@ -1,0 +1,96 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    outline: none;
+    font-family: monospace;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./url.jpg);
+    color: #fff;
+}
+
+.main{
+    padding: 20px 80px;
+    border-radius: 20px;
+    background: rgba(175,238,238, .2);
+    box-shadow: 0px 0px 16px 0px rgba(175,238,238, .7);
+    backdrop-filter: blur(5px);
+}
+
+.main p{
+    position: relative;
+    color: #fff;
+    top: 30%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.input-group{
+    margin-top: 10px;
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#longurl{
+    background: #e7f7ff;
+    font-size: 15px;
+    display: block;
+    margin: 10px auto;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#shorturl{
+    background: #e7f7ff;
+    font-size: 15px;
+    display: block;
+    margin: 10px 15px;
+    width: 305px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.btn
+{
+    background: #e7f7ff;
+    font-size: 15px;
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #181818;
+    transition: background 0.5s; 
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.btn:hover
+{
+    background: #3d84a5;
+    color: #fff;
+}
+
+#copy{
+    padding: 2px 5px;
+}
